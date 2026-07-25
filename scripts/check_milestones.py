@@ -1,5 +1,5 @@
-"""Check tracked Premier League players against goal milestones and email an
-alert the first time each milestone is crossed.
+"""Check tracked Premier League players against goal milestones and post an
+alert to a Teams channel the first time each milestone is crossed.
 
 Data sources:
   - data/players.csv: name, FPL "web_name" to match on, career goals before
@@ -9,19 +9,17 @@ Data sources:
 
 State:
   - data/state.json records which "web_name:target" milestones have already
-    triggered an email, so a milestone is only ever notified once.
+    triggered an alert, so a milestone is only ever notified once.
 
 Test mode (TEST_MODE=true):
   - Skips the live API call and injects a fake player that is already over
-    its target, guaranteeing an email fires. Used to prove the notification
+    its target, guaranteeing an alert fires. Used to prove the notification
     pipeline works without waiting for a real goal.
 """
 
 import csv
 import json
 import os
-import smtplib
-from email.mime.text import MIMEText
 
 import requests
 
@@ -76,28 +74,14 @@ def find_season_goals(elements, web_name):
     return None
 
 
-def send_email(subject, body, recipients):
-    host = os.environ["SMTP_HOST"]
-    port = int(os.environ.get("SMTP_PORT", "587"))
-    username = os.environ["SMTP_USERNAME"]
-    password = os.environ["SMTP_PASSWORD"]
-
-    msg = MIMEText(body)
-    msg["Subject"] = subject
-    msg["From"] = username
-    msg["To"] = ", ".join(recipients)
-
-    with smtplib.SMTP(host, port) as server:
-        server.starttls()
-        server.login(username, password)
-        server.sendmail(username, recipients, msg.as_string())
+def post_to_teams(title, text):
+    webhook_url = os.environ["TEAMS_WEBHOOK_URL"]
+    resp = requests.post(webhook_url, json={"title": title, "text": text}, timeout=15)
+    resp.raise_for_status()
 
 
 def main():
     test_mode = os.environ.get("TEST_MODE", "false").strip().lower() == "true"
-    recipients = [r.strip() for r in os.environ.get("RECIPIENTS", "").split(",") if r.strip()]
-    if not recipients:
-        raise SystemExit("RECIPIENTS env var is empty - nothing to notify")
 
     players = load_players()
     state = load_state()
@@ -130,17 +114,17 @@ def main():
 
         if total >= target and not already_notified:
             is_test = web_name == TEST_WEB_NAME
-            subject = f"{'[TEST] ' if is_test else ''}Milestone Alert: {name} has reached {target} Premier League goals"
-            body = (
+            title = f"{'[TEST] ' if is_test else ''}Milestone Alert: {name} has reached {target} Premier League goals"
+            text = (
                 f"{name} has reached {total} career Premier League goals, "
-                f"crossing the {target}-goal milestone.\n"
+                f"crossing the {target}-goal milestone."
             )
             if is_test:
-                body += "\nThis is a TEST alert confirming the notification pipeline works - no real goal was scored.\n"
+                text += " This is a TEST alert confirming the notification pipeline works - no real goal was scored."
 
-            send_email(subject, body, recipients)
+            post_to_teams(title, text)
             state[key] = True
-            print(f"Sent milestone email for {name} ({target})")
+            print(f"Posted milestone alert for {name} ({target})")
         else:
             print(f"{name}: {total}/{target} - no alert")
 

@@ -1,8 +1,9 @@
 # PL Milestone Tracker
 
-Proof of concept: automatically emails an alert the first time a tracked
-player crosses a Premier League career-goal milestone. Runs on GitHub
-Actions (free), independent of any individual's computer.
+Proof of concept: automatically posts an alert to a Microsoft Teams channel
+the first time a tracked player crosses a Premier League career-goal
+milestone. Runs on GitHub Actions (free), independent of any individual's
+computer.
 
 Currently tracking (career goals as of 24 July 2026, before the season starts):
 

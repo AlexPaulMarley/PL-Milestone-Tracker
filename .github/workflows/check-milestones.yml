@@ -28,11 +28,7 @@ jobs:
       - name: Run milestone check
         env:
           TEST_MODE: ${{ github.event.inputs.test || 'false' }}
-          RECIPIENTS: "alex.marley@thomaslyte.com,liam.mv@thomaslyte.com"
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
         run: python scripts/check_milestones.py
 
       - name: Commit updated state

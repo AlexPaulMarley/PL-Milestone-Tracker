@@ -156,9 +156,9 @@ def main():
 
             post_to_teams(title, text)
             state[key] = True
-            print(f"Posted milestone alert for {name} ({target})")
+            print(f"Posted milestone alert for {name} ({target}) - total {total} = baseline {baseline} + season {season_goals}")
         else:
-            print(f"{name}: {total}/{target} - no alert")
+            print(f"{name}: {total}/{target} - no alert (baseline {baseline} + season {season_goals})")
 
     save_state(state)
 

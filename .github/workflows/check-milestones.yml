@@ -2,7 +2,8 @@ name: Check PL Goal Milestones
 
 on:
   schedule:
-    - cron: '0 8 * * 1' # every Monday 08:00 UTC
+    - cron: '0 7 * * 1' # every Monday 08:00 UK time while BST is in effect
+    - cron: '0 8 * * 1' # every Monday 08:00 UK time while GMT is in effect
   workflow_dispatch:
     inputs:
       test:

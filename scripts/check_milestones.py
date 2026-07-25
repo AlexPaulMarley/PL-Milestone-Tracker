@@ -75,8 +75,40 @@ def find_season_goals(elements, web_name):
 
 
 def post_to_teams(title, text):
+    """The Teams "Post to a channel when a webhook request is received"
+    workflow template posts via an Adaptive Card attachment, not plain
+    title/text fields - it expects the request body itself to already be a
+    fully-formed card, wrapped in an "attachments" array."""
     webhook_url = os.environ["TEAMS_WEBHOOK_URL"]
-    resp = requests.post(webhook_url, json={"title": title, "text": text}, timeout=15)
+    payload = {
+        "type": "message",
+        "attachments": [
+            {
+                "contentType": "application/vnd.microsoft.card.adaptive",
+                "contentUrl": None,
+                "content": {
+                    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+                    "type": "AdaptiveCard",
+                    "version": "1.2",
+                    "body": [
+                        {
+                            "type": "TextBlock",
+                            "text": title,
+                            "weight": "Bolder",
+                            "size": "Medium",
+                            "wrap": True,
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": text,
+                            "wrap": True,
+                        },
+                    ],
+                },
+            }
+        ],
+    }
+    resp = requests.post(webhook_url, json=payload, timeout=15)
     resp.raise_for_status()
 
 

@@ -42,18 +42,13 @@ goes through the **Workflows** app instead:
    click **Add workflow**.
 4. It generates a unique HTTP POST URL — copy it. This is only shown once,
    so save it somewhere safe until it's added to GitHub (step 2 below).
-5. If it asks for a sample JSON schema for the incoming request, use:
-   ```json
-   {
-     "title": "Milestone Alert: Erling Haaland has reached 113 Premier League goals",
-     "text": "Erling Haaland has reached 113 career Premier League goals, crossing the 113-goal milestone."
-   }
-   ```
-   This lets the workflow pick up `title` and `text` as dynamic fields.
-6. In the **"Post message in a channel"** step the template adds, set the
-   message content to use those dynamic `title`/`text` fields (via the
-   dynamic content picker) so the alert text actually shows up.
-7. Save the flow.
+5. This template's default flow expects the incoming request to already be
+   a full Adaptive Card (wrapped in an `attachments` array) — that's exactly
+   what `scripts/check_milestones.py` sends, so you shouldn't need to touch
+   the auto-generated "Initialize variable" / "Post card in a chat or
+   channel" steps it creates. If it asks for a sample request body/schema,
+   accept the default it suggests rather than a custom one.
+6. Save the flow.
 
 (Menu wording can vary slightly by Teams version — if "Workflows" isn't
 visible, it may need enabling by IT, or search Teams docs for "Workflows

@@ -48,10 +48,19 @@ def save_state(state):
         f.write("\n")
 
 
-def fetch_elements():
+def fetch_bootstrap():
     resp = requests.get(FPL_BOOTSTRAP_URL, timeout=30)
     resp.raise_for_status()
-    return resp.json()["elements"]
+    return resp.json()
+
+
+def season_has_started(bootstrap):
+    """Before a new PL season kicks off, the FPL API still reports each
+    player's goals_scored from the just-finished season rather than 0 -
+    it doesn't reset until the first gameweek actually begins. Adding that
+    stale number to a baseline that already includes it double-counts, so
+    treat season goals as 0 until a gameweek has actually started."""
+    return any(e.get("finished") or e.get("is_current") for e in bootstrap.get("events", []))
 
 
 def find_season_goals(elements, web_name):
@@ -117,7 +126,16 @@ def main():
 
     players = load_players()
     state = load_state()
-    elements = [] if test_mode else fetch_elements()
+
+    if test_mode:
+        elements = []
+        started = True  # unused in test mode, but keeps the branch simple
+    else:
+        bootstrap = fetch_bootstrap()
+        elements = bootstrap["elements"]
+        started = season_has_started(bootstrap)
+        if not started:
+            print("Season hasn't started yet - ignoring goals_scored (still last season's stale totals)")
 
     if test_mode:
         players = players + [{
@@ -135,6 +153,8 @@ def main():
 
         if web_name == TEST_WEB_NAME:
             season_goals = 1  # guarantees the fake player crosses its target
+        elif not started:
+            season_goals = 0
         else:
             season_goals = find_season_goals(elements, web_name)
             if season_goals is None:

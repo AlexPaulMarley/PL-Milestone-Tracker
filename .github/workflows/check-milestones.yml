@@ -11,6 +11,10 @@ on:
         type: boolean
         default: false
 
+concurrency:
+  group: check-milestones
+  cancel-in-progress: false
+
 permissions:
   contents: write
 

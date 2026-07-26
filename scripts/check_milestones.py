@@ -194,11 +194,10 @@ def main():
 
             post_to_teams(title, text)
             state[key] = True
+            save_state(state)  # persist immediately so a later player's failure can't lose this alert's record
             print(f"Posted milestone alert for {name} ({target}) - total {total} = baseline {baseline} + season {season_goals}")
         else:
             print(f"{name}: {total}/{target} - no alert (baseline {baseline} + season {season_goals})")
-
-    save_state(state)
 
 
 if __name__ == "__main__":

@@ -10,6 +10,10 @@ on:
         description: 'Send a test alert using fake data (does not check real stats)'
         type: boolean
         default: false
+      debug_all_scorers:
+        description: 'Post one alert listing every PL player who has scored this season (real data, ignores milestones) - only runs if the season has started'
+        type: boolean
+        default: false
 
 concurrency:
   group: check-milestones
@@ -33,6 +37,7 @@ jobs:
       - name: Run milestone check
         env:
           TEST_MODE: ${{ github.event.inputs.test || 'false' }}
+          DEBUG_ALL_SCORERS: ${{ github.event.inputs.debug_all_scorers || 'false' }}
           TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
         run: python scripts/check_milestones.py
 

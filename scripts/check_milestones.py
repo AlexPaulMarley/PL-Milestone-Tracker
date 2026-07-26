@@ -141,6 +141,7 @@ def main():
         return
 
     test_mode = os.environ.get("TEST_MODE", "false").strip().lower() == "true"
+    debug_all_scorers = os.environ.get("DEBUG_ALL_SCORERS", "false").strip().lower() == "true"
 
     players = load_players()
     state = load_state()
@@ -154,6 +155,28 @@ def main():
         started = season_has_started(bootstrap)
         if not started:
             print("Season hasn't started yet - ignoring goals_scored (still last season's stale totals)")
+
+    if debug_all_scorers and not test_mode:
+        if not started:
+            print("DEBUG_ALL_SCORERS: season hasn't started yet - no season goals to report")
+        else:
+            scorers = sorted(
+                (el for el in elements if el.get("goals_scored", 0) > 0),
+                key=lambda el: el["goals_scored"],
+                reverse=True,
+            )
+            if scorers:
+                lines = "\n\n".join(
+                    f"- {el['web_name']}: {el['goals_scored']} goal(s) this season" for el in scorers
+                )
+                post_to_teams(
+                    "[DEBUG] Live scorer check - every player with a goal this season",
+                    f"{len(scorers)} player(s) have scored in the Premier League this season so far:\n\n{lines}\n\n"
+                    "This is a one-off debug alert confirming the live API connection works - not a milestone check.",
+                )
+                print(f"DEBUG_ALL_SCORERS: posted one alert listing {len(scorers)} scorer(s)")
+            else:
+                print("DEBUG_ALL_SCORERS: season has started but no one has scored yet")
 
     if test_mode:
         players = players + [{

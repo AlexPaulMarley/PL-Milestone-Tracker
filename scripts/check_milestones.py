@@ -32,6 +32,11 @@ STATE_JSON = os.path.join(os.path.dirname(__file__), "..", "data", "state.json")
 TEST_WEB_NAME = "__TEST__"
 UK_RUN_HOUR = 8
 
+# One-off: prove the Monday schedule posts a test alert on its own, without a
+# manual workflow_dispatch, before any real milestone exists to trigger one.
+# Self-expiring - only matches this date, so no cleanup is needed afterwards.
+ONE_OFF_SCHEDULED_TEST_DATE = "2026-07-27"
+
 
 def is_wrong_uk_hour():
     """GitHub Actions cron only runs in UTC, but the UK shifts between GMT and
@@ -42,6 +47,16 @@ def is_wrong_uk_hour():
     if os.environ.get("GITHUB_EVENT_NAME") != "schedule":
         return False
     return datetime.now(ZoneInfo("Europe/London")).hour != UK_RUN_HOUR
+
+
+def is_one_off_scheduled_test():
+    """Only true for the scheduled trigger that lands on ONE_OFF_SCHEDULED_TEST_DATE
+    - never for manual workflow_dispatch runs, which already have their own
+    explicit test input."""
+    if os.environ.get("GITHUB_EVENT_NAME") != "schedule":
+        return False
+    today = datetime.now(ZoneInfo("Europe/London")).date().isoformat()
+    return today == ONE_OFF_SCHEDULED_TEST_DATE
 
 
 def load_players():
@@ -141,6 +156,11 @@ def main():
         return
 
     test_mode = os.environ.get("TEST_MODE", "false").strip().lower() == "true"
+    if not test_mode and is_one_off_scheduled_test():
+        test_mode = True
+        print(f"One-off scheduled test enabled for {ONE_OFF_SCHEDULED_TEST_DATE} "
+              "- proving the Monday schedule posts on its own before real milestones exist")
+
     debug_all_scorers = os.environ.get("DEBUG_ALL_SCORERS", "false").strip().lower() == "true"
 
     players = load_players()

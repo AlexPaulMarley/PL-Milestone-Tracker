@@ -31,20 +31,21 @@ STATE_JSON = os.path.join(os.path.dirname(__file__), "..", "data", "state.json")
 
 TEST_WEB_NAME = "__TEST__"
 
-# One-off: prove the Monday schedule posts a test alert on its own, without a
+# One-off: prove a scheduled trigger posts a test alert on its own, without a
 # manual workflow_dispatch, before any real milestone exists to trigger one.
-# Self-expiring - only matches this date, so no cleanup is needed afterwards.
-ONE_OFF_SCHEDULED_TEST_DATE = "2026-07-27"
+# Self-expiring - only matches these dates, so no cleanup is needed afterwards
+# beyond removing the corresponding temporary cron line(s) in the workflow.
+ONE_OFF_SCHEDULED_TEST_DATES = {"2026-07-27", "2026-07-28"}
 
 
 def is_one_off_scheduled_test():
-    """Only true for the scheduled trigger that lands on ONE_OFF_SCHEDULED_TEST_DATE
+    """Only true for a scheduled trigger landing on one of ONE_OFF_SCHEDULED_TEST_DATES
     - never for manual workflow_dispatch runs, which already have their own
     explicit test input."""
     if os.environ.get("GITHUB_EVENT_NAME") != "schedule":
         return False
     today = datetime.now(ZoneInfo("Europe/London")).date().isoformat()
-    return today == ONE_OFF_SCHEDULED_TEST_DATE
+    return today in ONE_OFF_SCHEDULED_TEST_DATES
 
 
 def load_players():
@@ -142,8 +143,8 @@ def main():
     test_mode = os.environ.get("TEST_MODE", "false").strip().lower() == "true"
     if not test_mode and is_one_off_scheduled_test():
         test_mode = True
-        print(f"One-off scheduled test enabled for {ONE_OFF_SCHEDULED_TEST_DATE} "
-              "- proving the Monday schedule posts on its own before real milestones exist")
+        print("One-off scheduled test enabled - proving a scheduled trigger "
+              "posts on its own before real milestones exist")
 
     debug_all_scorers = os.environ.get("DEBUG_ALL_SCORERS", "false").strip().lower() == "true"
 

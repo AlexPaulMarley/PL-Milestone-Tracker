@@ -12,6 +12,10 @@ on:
     # milestone only ever alerts once, tracked in data/state.json.
     - cron: '5 4 * * 1' # ~05:05 UK time while BST is in effect
     - cron: '5 5 * * 1' # ~05:05 UK time while GMT is in effect
+    # ONE-OFF: prove the new 5am schedule actually fires on time tomorrow
+    # (Tue 28 July), without waiting a full week for the next Monday. Remove
+    # this line once confirmed - it isn't tied to the weekly Monday schedule.
+    - cron: '5 4 28 7 *' # ~05:05 UK time on 28 July 2026 (BST)
   workflow_dispatch:
     inputs:
       test:

@@ -4,9 +4,14 @@ on:
   schedule:
     # GitHub's own docs warn that triggers scheduled for the exact top of the
     # hour (":00") are more likely to be delayed due to load - offsetting by
-    # 5 minutes avoids that queueing delay.
-    - cron: '5 7 * * 1' # ~08:05 UK time while BST is in effect
-    - cron: '5 8 * * 1' # ~08:05 UK time while GMT is in effect
+    # 5 minutes avoids that queueing delay. Both triggers fire every Monday
+    # regardless of DST (one always ends up an hour "early"/"late" depending
+    # on the time of year) - the script doesn't try to guess which one is
+    # "correct" and skip the other, since that guess can itself be defeated
+    # by a delayed run. Running the check twice a week is harmless: each
+    # milestone only ever alerts once, tracked in data/state.json.
+    - cron: '5 4 * * 1' # ~05:05 UK time while BST is in effect
+    - cron: '5 5 * * 1' # ~05:05 UK time while GMT is in effect
   workflow_dispatch:
     inputs:
       test:

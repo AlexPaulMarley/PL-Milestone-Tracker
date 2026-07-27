@@ -30,23 +30,11 @@ PLAYERS_CSV = os.path.join(os.path.dirname(__file__), "..", "data", "players.csv
 STATE_JSON = os.path.join(os.path.dirname(__file__), "..", "data", "state.json")
 
 TEST_WEB_NAME = "__TEST__"
-UK_RUN_HOUR = 8
 
 # One-off: prove the Monday schedule posts a test alert on its own, without a
 # manual workflow_dispatch, before any real milestone exists to trigger one.
 # Self-expiring - only matches this date, so no cleanup is needed afterwards.
 ONE_OFF_SCHEDULED_TEST_DATE = "2026-07-27"
-
-
-def is_wrong_uk_hour():
-    """GitHub Actions cron only runs in UTC, but the UK shifts between GMT and
-    BST mid-season. The workflow schedules two triggers (07:00 and 08:00 UTC)
-    so one of them always lands on 08:00 UK time regardless of DST - this
-    skips the other one so the check only actually runs once, at the right
-    UK time. Manual workflow_dispatch runs always proceed regardless of hour."""
-    if os.environ.get("GITHUB_EVENT_NAME") != "schedule":
-        return False
-    return datetime.now(ZoneInfo("Europe/London")).hour != UK_RUN_HOUR
 
 
 def is_one_off_scheduled_test():
@@ -151,10 +139,6 @@ def post_to_teams(title, text):
 
 
 def main():
-    if is_wrong_uk_hour():
-        print(f"Skipping - this is the DST-offset scheduled trigger, not currently {UK_RUN_HOUR}:00 UK time")
-        return
-
     test_mode = os.environ.get("TEST_MODE", "false").strip().lower() == "true"
     if not test_mode and is_one_off_scheduled_test():
         test_mode = True

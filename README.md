@@ -15,8 +15,8 @@ Currently tracking (career goals as of 24 July 2026, before the season starts):
 
 ## How it works
 
-1. `.github/workflows/check-milestones.yml` runs weekly (Mondays 08:00 UTC)
-   via GitHub Actions, plus on-demand from the Actions tab.
+1. `.github/workflows/check-milestones.yml` runs weekly (Mondays ~05:05 UK
+   time) via GitHub Actions, plus on-demand from the Actions tab.
 2. `scripts/check_milestones.py` pulls each player's goals scored so far
    this season from the free Fantasy Premier League API, adds that to their
    baseline in `data/players.csv`, and compares the total to the milestone

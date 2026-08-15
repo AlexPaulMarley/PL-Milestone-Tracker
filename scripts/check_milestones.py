@@ -37,15 +37,21 @@ TEST_WEB_NAME = "__TEST__"
 # beyond removing the corresponding temporary cron line(s) in the workflow.
 ONE_OFF_SCHEDULED_TEST_DATES = {"2026-07-27", "2026-07-28"}
 
+# One-off: on the Monday after the 2026/27 opening weekend, have the regular
+# scheduled run also post the every-scorer debug alert, proving the automation
+# works end-to-end against real live data. Self-expiring - uses the normal
+# Monday cron, so no workflow changes are needed and none need removing.
+ONE_OFF_ALL_SCORERS_DATES = {"2026-08-24"}
 
-def is_one_off_scheduled_test():
-    """Only true for a scheduled trigger landing on one of ONE_OFF_SCHEDULED_TEST_DATES
-    - never for manual workflow_dispatch runs, which already have their own
-    explicit test input."""
+
+def is_scheduled_run_on(dates):
+    """Only true for a scheduled trigger landing on one of the given dates -
+    never for manual workflow_dispatch runs, which already have their own
+    explicit test inputs."""
     if os.environ.get("GITHUB_EVENT_NAME") != "schedule":
         return False
     today = datetime.now(ZoneInfo("Europe/London")).date().isoformat()
-    return today in ONE_OFF_SCHEDULED_TEST_DATES
+    return today in dates
 
 
 def load_players():
@@ -141,7 +147,7 @@ def post_to_teams(title, text):
 
 def main():
     test_mode = os.environ.get("TEST_MODE", "false").strip().lower() == "true"
-    if not test_mode and is_one_off_scheduled_test():
+    if not test_mode and is_scheduled_run_on(ONE_OFF_SCHEDULED_TEST_DATES):
         test_mode = True
         print("One-off scheduled test enabled - proving a scheduled trigger "
               "posts on its own before real milestones exist")
@@ -150,6 +156,20 @@ def main():
 
     players = load_players()
     state = load_state()
+
+    # Both Monday crons fire (BST + GMT variants), so without this state-based
+    # dedupe the one-off all-scorers alert would post twice that morning.
+    all_scorers_dedupe_key = None
+    if not debug_all_scorers and is_scheduled_run_on(ONE_OFF_ALL_SCORERS_DATES):
+        today = datetime.now(ZoneInfo("Europe/London")).date().isoformat()
+        all_scorers_dedupe_key = f"__all_scorers__:{today}"
+        if state.get(all_scorers_dedupe_key):
+            print("One-off all-scorers alert already posted today - skipping duplicate")
+            all_scorers_dedupe_key = None
+        else:
+            debug_all_scorers = True
+            print("One-off all-scorers alert enabled - proving the automation "
+                  "against real data after the opening weekend")
 
     if test_mode:
         elements = []
@@ -180,6 +200,9 @@ def main():
                     "This is a one-off debug alert confirming the live API connection works - not a milestone check.",
                 )
                 print(f"DEBUG_ALL_SCORERS: posted one alert listing {len(scorers)} scorer(s)")
+                if all_scorers_dedupe_key:
+                    state[all_scorers_dedupe_key] = True
+                    save_state(state)
             else:
                 print("DEBUG_ALL_SCORERS: season has started but no one has scored yet")
 

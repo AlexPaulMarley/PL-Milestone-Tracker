@@ -8,18 +8,19 @@ on:
     # regardless of DST (one always ends up an hour "early"/"late" depending
     # on the time of year) - the script doesn't try to guess which one is
     # "correct" and skip the other, since that guess can itself be defeated
-    # by a delayed run. Running the check twice a week is harmless: each
-    # milestone only ever alerts once, tracked in data/state.json.
+    # by a delayed run. Running the check twice a week is harmless: reached
+    # alerts dedupe forever and the digest dedupes per day via
+    # data/state.json.
     - cron: '5 4 * * 1' # ~05:05 UK time while BST is in effect
     - cron: '5 5 * * 1' # ~05:05 UK time while GMT is in effect
   workflow_dispatch:
     inputs:
       test:
-        description: 'Send a test alert using fake data (does not check real stats)'
+        description: 'Send a fake [TEST] digest card to prove the Teams pipeline (no real data)'
         type: boolean
         default: false
-      debug_all_scorers:
-        description: 'Post one alert listing every PL player who has scored this season (real data, ignores milestones) - only runs if the season has started'
+      dry_run:
+        description: 'Run the full scan but print cards to the log instead of posting, and commit nothing'
         type: boolean
         default: false
 
@@ -42,17 +43,17 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Run milestone check
+      - name: Scan all players for milestones
         env:
           TEST_MODE: ${{ github.event.inputs.test || 'false' }}
-          DEBUG_ALL_SCORERS: ${{ github.event.inputs.debug_all_scorers || 'false' }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
           TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
-        run: python scripts/check_milestones.py
+        run: python scripts/check_all_milestones.py
 
-      - name: Commit updated state
+      - name: Commit updated state and spreadsheet
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/state.json
-          git diff --cached --quiet || git commit -m "Update milestone notification state"
+          git add data/state.json data/milestone_snapshot.json data/alltime_player_stats.csv data/alltime_player_stats.xlsx
+          git diff --cached --quiet || git commit -m "Weekly milestone scan: refresh stats and state"
           git push

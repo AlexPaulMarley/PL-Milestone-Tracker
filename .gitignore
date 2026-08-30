@@ -2,3 +2,13 @@ __pycache__/
 *.pyc
 data/state.json.testrun
 .jarvis/
+node_modules/
+.env
+.env.*
+.venv/
+venv/
+dist/
+.next/
+*.log
+.DS_Store
+Thumbs.db

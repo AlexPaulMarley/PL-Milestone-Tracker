@@ -1,6 +1,6 @@
 {
   "133131": {
-    "appearances": 256,
+    "appearances": 257,
     "goals": 1,
     "name": "Alisson Becker"
   },
@@ -20,7 +20,7 @@
     "name": "John McGinn"
   },
   "14011": {
-    "appearances": 297,
+    "appearances": 298,
     "goals": 4,
     "name": "Luke Shaw"
   },
@@ -40,17 +40,17 @@
     "name": "Joelinton"
   },
   "161345": {
-    "appearances": 292,
+    "appearances": 293,
     "goals": 15,
     "name": "Harry Maguire"
   },
   "180060": {
-    "appearances": 231,
-    "goals": 71,
+    "appearances": 232,
+    "goals": 74,
     "name": "Bruno Fernandes"
   },
   "190129": {
-    "appearances": 159,
+    "appearances": 160,
     "goals": 1,
     "name": "Antonee Robinson"
   },
@@ -74,23 +74,13 @@
     "goals": 10,
     "name": "Matty Cash"
   },
-  "226363": {
-    "appearances": 221,
-    "goals": 91,
-    "name": "Ollie Watkins"
-  },
-  "252275": {
-    "appearances": 228,
-    "goals": 0,
-    "name": "Emiliano Mart\u00ednez"
-  },
   "257590": {
-    "appearances": 171,
+    "appearances": 172,
     "goals": 5,
     "name": "R\u00faben Dias"
   },
   "258703": {
-    "appearances": 162,
+    "appearances": 163,
     "goals": 11,
     "name": "Vitaly Janelt"
   },
@@ -100,7 +90,7 @@
     "name": "Ben White"
   },
   "287383": {
-    "appearances": 184,
+    "appearances": 185,
     "goals": 16,
     "name": "Joe Willock"
   },
@@ -115,32 +105,32 @@
     "name": "Will Hughes"
   },
   "288967": {
-    "appearances": 124,
+    "appearances": 125,
     "goals": 5,
     "name": "Ryan Christie"
   },
   "294324": {
-    "appearances": 191,
+    "appearances": 192,
     "goals": 1,
     "name": "Lewis Cook"
   },
   "299539": {
-    "appearances": 144,
+    "appearances": 145,
     "goals": 4,
     "name": "Vitalii Mykolenko"
   },
   "299939": {
-    "appearances": 39,
+    "appearances": 40,
     "goals": 2,
     "name": "Trai Hume"
   },
   "302331": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Regan Slater"
   },
   "302775": {
-    "appearances": 111,
+    "appearances": 112,
     "goals": 9,
     "name": "Rodrigo Bentancur"
   },
@@ -155,8 +145,8 @@
     "name": "Dan Burn"
   },
   "312560": {
-    "appearances": 133,
-    "goals": 112,
+    "appearances": 134,
+    "goals": 114,
     "name": "Erling Haaland"
   },
   "313738": {
@@ -175,8 +165,8 @@
     "name": "Richarlison"
   },
   "314846": {
-    "appearances": 341,
-    "goals": 12,
+    "appearances": 342,
+    "goals": 13,
     "name": "James Tarkowski"
   },
   "315355": {
@@ -185,32 +175,32 @@
     "name": "Gabriel Jesus"
   },
   "316560": {
-    "appearances": 143,
+    "appearances": 144,
     "goals": 4,
     "name": "Neco Williams"
   },
   "317507": {
-    "appearances": 115,
+    "appearances": 116,
     "goals": 8,
     "name": "Keane Lewis-Potter"
   },
   "318813": {
-    "appearances": 76,
+    "appearances": 77,
     "goals": 3,
     "name": "Lisandro Mart\u00ednez"
   },
   "320523": {
-    "appearances": 36,
-    "goals": 1,
+    "appearances": 37,
+    "goals": 2,
     "name": "Leif Davis"
   },
   "320542": {
-    "appearances": 93,
+    "appearances": 94,
     "goals": 3,
     "name": "Chris Richards"
   },
   "321656": {
-    "appearances": 252,
+    "appearances": 253,
     "goals": 0,
     "name": "Bernd Leno"
   },
@@ -220,17 +210,17 @@
     "name": "Rico Lewis"
   },
   "322881": {
-    "appearances": 121,
+    "appearances": 122,
     "goals": 6,
     "name": "Mikkel Damsgaard"
   },
   "323587": {
-    "appearances": 192,
-    "goals": 33,
+    "appearances": 193,
+    "goals": 34,
     "name": "Morgan Gibbs-White"
   },
   "325335": {
-    "appearances": 91,
+    "appearances": 92,
     "goals": 1,
     "name": "Wesley Fofana"
   },
@@ -240,17 +230,17 @@
     "name": "Wilfried Gnonto"
   },
   "328496": {
-    "appearances": 79,
+    "appearances": 80,
     "goals": 4,
     "name": "Kobbie Mainoo"
   },
   "333368": {
-    "appearances": 96,
+    "appearances": 97,
     "goals": 1,
     "name": "Yehor Yarmoliuk"
   },
   "335653": {
-    "appearances": 128,
+    "appearances": 129,
     "goals": 33,
     "name": "Cody Gakpo"
   },
@@ -260,12 +250,12 @@
     "name": "Jack Hinshelwood"
   },
   "335813": {
-    "appearances": 19,
+    "appearances": 20,
     "goals": 1,
     "name": "Chris Rigg"
   },
   "336323": {
-    "appearances": 57,
+    "appearances": 58,
     "goals": 0,
     "name": "Aaron Hickey"
   },
@@ -275,7 +265,7 @@
     "name": "Mykhailo Mudryk"
   },
   "337917": {
-    "appearances": 118,
+    "appearances": 119,
     "goals": 19,
     "name": "Enzo Fern\u00e1ndez"
   },
@@ -285,18 +275,18 @@
     "name": "Nathan Patterson"
   },
   "338756": {
-    "appearances": 115,
+    "appearances": 116,
     "goals": 3,
     "name": "James Garner"
   },
   "340453": {
-    "appearances": 204,
+    "appearances": 205,
     "goals": 28,
     "name": "Alexis Mac Allister"
   },
   "340456": {
-    "appearances": 103,
-    "goals": 21,
+    "appearances": 104,
+    "goals": 22,
     "name": "Kevin Schade"
   },
   "340460": {
@@ -305,7 +295,7 @@
     "name": "Jefferson Lerma"
   },
   "340461": {
-    "appearances": 117,
+    "appearances": 118,
     "goals": 9,
     "name": "Pedro Porro"
   },
@@ -315,12 +305,12 @@
     "name": "Dejan Kulusevski"
   },
   "340631": {
-    "appearances": 87,
+    "appearances": 88,
     "goals": 21,
     "name": "Justin Kluivert"
   },
   "340665": {
-    "appearances": 210,
+    "appearances": 211,
     "goals": 11,
     "name": "Mateo Kovacic"
   },
@@ -340,22 +330,22 @@
     "name": "James Maddison"
   },
   "340751": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Jay Dasilva"
   },
   "340932": {
-    "appearances": 106,
+    "appearances": 107,
     "goals": 16,
     "name": "Dominik Szoboszlai"
   },
   "340943": {
-    "appearances": 96,
+    "appearances": 97,
     "goals": 0,
     "name": "Bart Verbruggen"
   },
   "340957": {
-    "appearances": 151,
+    "appearances": 152,
     "goals": 6,
     "name": "Nathan Collins"
   },
@@ -368,6 +358,11 @@
     "appearances": 13,
     "goals": 1,
     "name": "Ellis Simms"
+  },
+  "341867": {
+    "appearances": 1,
+    "goals": 0,
+    "name": "Tatsuhiro Sakamoto"
   },
   "341884": {
     "appearances": 75,
@@ -385,32 +380,32 @@
     "name": "Declan Rice"
   },
   "342387": {
-    "appearances": 62,
+    "appearances": 63,
     "goals": 1,
     "name": "Ethan Ampadu"
   },
   "342617": {
-    "appearances": 110,
+    "appearances": 111,
     "goals": 5,
     "name": "Ola Aina"
   },
   "342736": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Bobby Thomas"
   },
   "342771": {
-    "appearances": 238,
+    "appearances": 239,
     "goals": 56,
     "name": "Harvey Barnes"
   },
   "343252": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Milan van Ewijk"
   },
   "343384": {
-    "appearances": 95,
+    "appearances": 96,
     "goals": 3,
     "name": "Calvin Bassey"
   },
@@ -420,14 +415,9 @@
     "name": "Robert S\u00e1nchez"
   },
   "343671": {
-    "appearances": 84,
+    "appearances": 85,
     "goals": 12,
     "name": "Josko Gvardiol"
-  },
-  "343761": {
-    "appearances": 61,
-    "goals": 0,
-    "name": "Sam Byram"
   },
   "344361": {
     "appearances": 110,
@@ -435,17 +425,17 @@
     "name": "Tino Livramento"
   },
   "344362": {
-    "appearances": 75,
+    "appearances": 76,
     "goals": 7,
     "name": "Micky van de Ven"
   },
   "344583": {
-    "appearances": 81,
-    "goals": 4,
+    "appearances": 82,
+    "goals": 5,
     "name": "Alex Scott"
   },
   "345054": {
-    "appearances": 151,
+    "appearances": 152,
     "goals": 7,
     "name": "Mois\u00e9s Caicedo"
   },
@@ -455,7 +445,7 @@
     "name": "Wataru Endo"
   },
   "345193": {
-    "appearances": 81,
+    "appearances": 82,
     "goals": 2,
     "name": "Tyler Adams"
   },
@@ -465,17 +455,12 @@
     "name": "J\u00e9r\u00e9my Doku"
   },
   "346392": {
-    "appearances": 180,
+    "appearances": 181,
     "goals": 6,
     "name": "Timothy Castagne"
   },
-  "346421": {
-    "appearances": 92,
-    "goals": 3,
-    "name": "Carlos Baleba"
-  },
   "346759": {
-    "appearances": 161,
+    "appearances": 162,
     "goals": 0,
     "name": "Dean Henderson"
   },
@@ -485,13 +470,13 @@
     "name": "Ilia Gruev"
   },
   "346775": {
-    "appearances": 94,
+    "appearances": 95,
     "goals": 3,
     "name": "Murillo"
   },
   "346777": {
-    "appearances": 116,
-    "goals": 47,
+    "appearances": 117,
+    "goals": 49,
     "name": "Cole Palmer"
   },
   "346778": {
@@ -500,12 +485,12 @@
     "name": "Matheus Nunes"
   },
   "346846": {
-    "appearances": 100,
+    "appearances": 101,
     "goals": 6,
     "name": "Ryan Gravenberch"
   },
   "346851": {
-    "appearances": 321,
+    "appearances": 322,
     "goals": 35,
     "name": "Alex Iwobi"
   },
@@ -515,12 +500,12 @@
     "name": "Ibrahim Sangar\u00e9"
   },
   "347497": {
-    "appearances": 87,
+    "appearances": 88,
     "goals": 3,
     "name": "Nicol\u00e1s Dom\u00ednguez"
   },
   "347498": {
-    "appearances": 162,
+    "appearances": 163,
     "goals": 20,
     "name": "Callum Hudson-Odoi"
   },
@@ -530,12 +515,12 @@
     "name": "Conor Bradley"
   },
   "349612": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Lewie Coyle"
   },
   "355338": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Victor Torp"
   },
@@ -550,27 +535,27 @@
     "name": "Daniel Mu\u00f1oz"
   },
   "356624": {
-    "appearances": 71,
+    "appearances": 72,
     "goals": 1,
     "name": "Adam Wharton"
   },
   "356625": {
-    "appearances": 86,
+    "appearances": 87,
     "goals": 0,
     "name": "Matz Sels"
   },
   "356815": {
-    "appearances": 41,
-    "goals": 1,
+    "appearances": 42,
+    "goals": 2,
     "name": "Josh King"
   },
   "357111": {
-    "appearances": 14,
+    "appearances": 15,
     "goals": 0,
     "name": "Romaine Mundle"
   },
   "358241": {
-    "appearances": 23,
+    "appearances": 24,
     "goals": 1,
     "name": "Josh Acheampong"
   },
@@ -580,7 +565,7 @@
     "name": "Justin Devenny"
   },
   "359175": {
-    "appearances": 47,
+    "appearances": 48,
     "goals": 22,
     "name": "Igor Thiago"
   },
@@ -595,12 +580,12 @@
     "name": "Lucas Bergvall"
   },
   "359184": {
-    "appearances": 59,
+    "appearances": 60,
     "goals": 0,
     "name": "Tim Iroegbunam"
   },
   "359204": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Jack Rudoni"
   },
@@ -620,7 +605,7 @@
     "name": "Yankuba Minteh"
   },
   "359409": {
-    "appearances": 63,
+    "appearances": 64,
     "goals": 0,
     "name": "Daichi Kamada"
   },
@@ -630,7 +615,7 @@
     "name": "Odysseas Vlachodimos"
   },
   "359413": {
-    "appearances": 85,
+    "appearances": 86,
     "goals": 2,
     "name": "Lewis Hall"
   },
@@ -640,22 +625,22 @@
     "name": "Chadi Riad"
   },
   "359869": {
-    "appearances": 53,
+    "appearances": 54,
     "goals": 2,
     "name": "Archie Gray"
   },
   "359912": {
-    "appearances": 67,
+    "appearances": 68,
     "goals": 15,
     "name": "Iliman Ndiaye"
   },
   "359914": {
-    "appearances": 51,
+    "appearances": 52,
     "goals": 2,
     "name": "Joe Rodon"
   },
   "360338": {
-    "appearances": 52,
+    "appearances": 53,
     "goals": 3,
     "name": "Mats Wieffer"
   },
@@ -665,7 +650,7 @@
     "name": "David Raya"
   },
   "360794": {
-    "appearances": 26,
+    "appearances": 27,
     "goals": 1,
     "name": "Jacob Greaves"
   },
@@ -674,23 +659,18 @@
     "goals": 5,
     "name": "Joshua Zirkzee"
   },
-  "361187": {
-    "appearances": 53,
-    "goals": 2,
-    "name": "Savinho"
-  },
   "361201": {
-    "appearances": 76,
+    "appearances": 77,
     "goals": 5,
     "name": "Nikola Milenkovic"
   },
   "361302": {
-    "appearances": 53,
+    "appearances": 54,
     "goals": 0,
     "name": "Leny Yoro"
   },
   "361345": {
-    "appearances": 85,
+    "appearances": 86,
     "goals": 6,
     "name": "Jayden Bogle"
   },
@@ -700,12 +680,12 @@
     "name": "Amadou Onana"
   },
   "361507": {
-    "appearances": 5,
+    "appearances": 6,
     "goals": 0,
     "name": "Cody Drameh"
   },
   "361805": {
-    "appearances": 116,
+    "appearances": 118,
     "goals": 11,
     "name": "Ryan Sessegnon"
   },
@@ -720,7 +700,7 @@
     "name": "Isma\u00efla Sarr"
   },
   "362162": {
-    "appearances": 151,
+    "appearances": 152,
     "goals": 21,
     "name": "Emile Smith Rowe"
   },
@@ -730,7 +710,7 @@
     "name": "Jorge Cuenca"
   },
   "362498": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Brandon Thomas-Asante"
   },
@@ -740,18 +720,18 @@
     "name": "William Osula"
   },
   "362612": {
-    "appearances": 1,
-    "goals": 0,
+    "appearances": 2,
+    "goals": 1,
     "name": "Liam Millar"
   },
   "362647": {
-    "appearances": 177,
+    "appearances": 178,
     "goals": 41,
     "name": "Dominic Solanke"
   },
   "362697": {
-    "appearances": 180,
-    "goals": 20,
+    "appearances": 182,
+    "goals": 21,
     "name": "Pedro Neto"
   },
   "362739": {
@@ -760,7 +740,7 @@
     "name": "F\u00e1bio Carvalho"
   },
   "362814": {
-    "appearances": 58,
+    "appearances": 59,
     "goals": 0,
     "name": "Noussair Mazraoui"
   },
@@ -775,7 +755,7 @@
     "name": "Wilson Odobert"
   },
   "362874": {
-    "appearances": 68,
+    "appearances": 69,
     "goals": 16,
     "name": "Evanilson"
   },
@@ -784,8 +764,13 @@
     "goals": 8,
     "name": "Georginio Rutter"
   },
+  "363131": {
+    "appearances": 1,
+    "goals": 0,
+    "name": "Ryan McAidoo"
+  },
   "363132": {
-    "appearances": 133,
+    "appearances": 134,
     "goals": 3,
     "name": "Sander Berge"
   },
@@ -795,7 +780,7 @@
     "name": "Sepp van den Berg"
   },
   "363213": {
-    "appearances": 198,
+    "appearances": 199,
     "goals": 4,
     "name": "Joachim Andersen"
   },
@@ -805,12 +790,12 @@
     "name": "Jack Clarke"
   },
   "363354": {
-    "appearances": 97,
+    "appearances": 98,
     "goals": 3,
     "name": "Dara O'Shea"
   },
   "363406": {
-    "appearances": 43,
+    "appearances": 44,
     "goals": 2,
     "name": "Ferdi Kadioglu"
   },
@@ -825,7 +810,7 @@
     "name": "Federico Chiesa"
   },
   "363773": {
-    "appearances": 158,
+    "appearances": 159,
     "goals": 24,
     "name": "Eddie Nketiah"
   },
@@ -840,7 +825,7 @@
     "name": "Morato"
   },
   "364352": {
-    "appearances": 28,
+    "appearances": 29,
     "goals": 2,
     "name": "Ao Tanaka"
   },
@@ -850,7 +835,7 @@
     "name": "Ross Barkley"
   },
   "36581": {
-    "appearances": 106,
+    "appearances": 107,
     "goals": 3,
     "name": "Rico Henry"
   },
@@ -870,7 +855,7 @@
     "name": "Michael Keane"
   },
   "52087": {
-    "appearances": 157,
+    "appearances": 158,
     "goals": 10,
     "name": "Reece James"
   },
@@ -880,7 +865,7 @@
     "name": "Jake O'Brien"
   },
   "729220": {
-    "appearances": 87,
+    "appearances": 88,
     "goals": 3,
     "name": "Sven Botman"
   },
@@ -890,12 +875,12 @@
     "name": "Remy Rees-Dottin"
   },
   "729475": {
-    "appearances": 49,
+    "appearances": 50,
     "goals": 6,
     "name": "Diego G\u00f3mez"
   },
   "730875": {
-    "appearances": 14,
+    "appearances": 15,
     "goals": 0,
     "name": "Anton\u00edn Kinsky"
   },
@@ -915,27 +900,22 @@
     "name": "Jaden Philogene"
   },
   "732260": {
-    "appearances": 28,
+    "appearances": 29,
     "goals": 0,
     "name": "Abdukodir Khusanov"
   },
-  "732371": {
-    "appearances": 37,
-    "goals": 10,
-    "name": "Omar Marmoush"
-  },
   "733084": {
-    "appearances": 5,
+    "appearances": 6,
     "goals": 0,
     "name": "Matt Grimes"
   },
   "734490": {
-    "appearances": 39,
+    "appearances": 40,
     "goals": 4,
     "name": "Patrick Dorgu"
   },
   "734553": {
-    "appearances": 74,
+    "appearances": 75,
     "goals": 2,
     "name": "John Egan"
   },
@@ -943,11 +923,6 @@
     "appearances": 13,
     "goals": 0,
     "name": "Alex Palmer"
-  },
-  "734872": {
-    "appearances": 36,
-    "goals": 2,
-    "name": "Nico Gonz\u00e1lez"
   },
   "735661": {
     "appearances": 1,
@@ -960,7 +935,7 @@
     "name": "Ayden Heaven"
   },
   "736958": {
-    "appearances": 22,
+    "appearances": 23,
     "goals": 0,
     "name": "Jeremie Frimpong"
   },
@@ -970,19 +945,14 @@
     "name": "Tyler Fletcher"
   },
   "736964": {
-    "appearances": 116,
+    "appearances": 117,
     "goals": 39,
     "name": "Matheus Cunha"
   },
   "737010": {
-    "appearances": 63,
+    "appearances": 64,
     "goals": 0,
     "name": "Caoimh\u00edn Kelleher"
-  },
-  "737015": {
-    "appearances": 67,
-    "goals": 13,
-    "name": "Liam Delap"
   },
   "737017": {
     "appearances": 3,
@@ -1000,32 +970,32 @@
     "name": "Rayan A\u00eft-Nouri"
   },
   "737021": {
-    "appearances": 34,
-    "goals": 4,
+    "appearances": 35,
+    "goals": 6,
     "name": "Rayan Cherki"
   },
   "737205": {
-    "appearances": 39,
+    "appearances": 40,
     "goals": 1,
     "name": "Adrien Truffert"
   },
   "737207": {
-    "appearances": 50,
+    "appearances": 51,
     "goals": 2,
     "name": "Michael Kayode"
   },
   "737213": {
-    "appearances": 55,
+    "appearances": 56,
     "goals": 6,
     "name": "Charly Alcaraz"
   },
   "737214": {
-    "appearances": 33,
+    "appearances": 34,
     "goals": 6,
     "name": "Lukas Nmecha"
   },
   "737216": {
-    "appearances": 37,
+    "appearances": 38,
     "goals": 5,
     "name": "Enzo Le F\u00e9e"
   },
@@ -1035,22 +1005,22 @@
     "name": "Kevin Danso"
   },
   "737218": {
-    "appearances": 45,
+    "appearances": 46,
     "goals": 6,
     "name": "Mathys Tel"
   },
   "737226": {
-    "appearances": 34,
+    "appearances": 35,
     "goals": 5,
     "name": "Florian Wirtz"
   },
   "737230": {
-    "appearances": 26,
+    "appearances": 27,
     "goals": 1,
     "name": "Jaka Bijol"
   },
   "737233": {
-    "appearances": 101,
+    "appearances": 102,
     "goals": 4,
     "name": "Milos Kerkez"
   },
@@ -1060,7 +1030,7 @@
     "name": "Walter Ben\u00edtez"
   },
   "737352": {
-    "appearances": 34,
+    "appearances": 35,
     "goals": 3,
     "name": "Semi Ajayi"
   },
@@ -1080,17 +1050,17 @@
     "name": "Kaine Kesler-Hayden"
   },
   "737572": {
-    "appearances": 13,
+    "appearances": 14,
     "goals": 0,
     "name": "Olivier Boscagli"
   },
   "737574": {
-    "appearances": 125,
-    "goals": 37,
+    "appearances": 126,
+    "goals": 39,
     "name": "Jo\u00e3o Pedro"
   },
   "737576": {
-    "appearances": 21,
+    "appearances": 22,
     "goals": 2,
     "name": "Habib Diarra"
   },
@@ -1105,7 +1075,7 @@
     "name": "David Button"
   },
   "737898": {
-    "appearances": 34,
+    "appearances": 35,
     "goals": 0,
     "name": "Noah Sadiki"
   },
@@ -1115,12 +1085,12 @@
     "name": "Jamie Gittens"
   },
   "738113": {
-    "appearances": 31,
+    "appearances": 32,
     "goals": 3,
     "name": "Maxim De Cuyper"
   },
   "738116": {
-    "appearances": 38,
+    "appearances": 39,
     "goals": 6,
     "name": "Igor Jesus"
   },
@@ -1135,12 +1105,12 @@
     "name": "Gabriel Gudmundsson"
   },
   "738290": {
-    "appearances": 26,
+    "appearances": 27,
     "goals": 0,
     "name": "Reinildo Mandava"
   },
   "738291": {
-    "appearances": 39,
+    "appearances": 40,
     "goals": 9,
     "name": "Thierno Barry"
   },
@@ -1150,8 +1120,8 @@
     "name": "Chemsdine Talbi"
   },
   "738332": {
-    "appearances": 33,
-    "goals": 6,
+    "appearances": 34,
+    "goals": 7,
     "name": "Wilson Isidor"
   },
   "738344": {
@@ -1160,7 +1130,7 @@
     "name": "Simon Adingra"
   },
   "738357": {
-    "appearances": 84,
+    "appearances": 85,
     "goals": 15,
     "name": "Mohammed Kudus"
   },
@@ -1170,12 +1140,12 @@
     "name": "Borna Sosa"
   },
   "738400": {
-    "appearances": 146,
-    "goals": 15,
+    "appearances": 147,
+    "goals": 16,
     "name": "Anthony Elanga"
   },
   "738426": {
-    "appearances": 10,
+    "appearances": 11,
     "goals": 0,
     "name": "Jair Cunha"
   },
@@ -1190,7 +1160,7 @@
     "name": "Mark Travers"
   },
   "738606": {
-    "appearances": 62,
+    "appearances": 63,
     "goals": 0,
     "name": "Djordje Petrovic"
   },
@@ -1205,18 +1175,18 @@
     "name": "Sean Longstaff"
   },
   "738833": {
-    "appearances": 22,
+    "appearances": 23,
     "goals": 2,
     "name": "Est\u00eav\u00e3o"
   },
   "738868": {
-    "appearances": 30,
+    "appearances": 31,
     "goals": 6,
     "name": "Anton Stach"
   },
   "738869": {
-    "appearances": 170,
-    "goals": 53,
+    "appearances": 171,
+    "goals": 54,
     "name": "Bryan Mbeumo"
   },
   "738946": {
@@ -1234,28 +1204,23 @@
     "goals": 14,
     "name": "Viktor Gy\u00f6keres"
   },
-  "739267": {
-    "appearances": 16,
-    "goals": 0,
-    "name": "Lucas Perri"
-  },
   "739465": {
-    "appearances": 260,
+    "appearances": 261,
     "goals": 18,
     "name": "Granit Xhaka"
   },
   "739536": {
-    "appearances": 25,
-    "goals": 1,
+    "appearances": 26,
+    "goals": 2,
     "name": "Dan Ndoye"
   },
   "739537": {
-    "appearances": 36,
+    "appearances": 37,
     "goals": 0,
     "name": "Robin Roefs"
   },
   "739654": {
-    "appearances": 23,
+    "appearances": 24,
     "goals": 0,
     "name": "Jorrel Hato"
   },
@@ -1265,22 +1230,22 @@
     "name": "Jack Fletcher"
   },
   "739761": {
-    "appearances": 104,
+    "appearances": 105,
     "goals": 12,
     "name": "Kiernan Dewsbury-Hall"
   },
   "739776": {
-    "appearances": 97,
+    "appearances": 98,
     "goals": 13,
     "name": "Oliver McBurnie"
   },
   "740007": {
-    "appearances": 31,
+    "appearances": 32,
     "goals": 11,
     "name": "Benjamin Sesko"
   },
   "740040": {
-    "appearances": 20,
+    "appearances": 21,
     "goals": 2,
     "name": "Rio Ngumoha"
   },
@@ -1290,7 +1255,7 @@
     "name": "Omar Alderete"
   },
   "740246": {
-    "appearances": 36,
+    "appearances": 37,
     "goals": 4,
     "name": "Malick Thiaw"
   },
@@ -1300,8 +1265,8 @@
     "name": "Bafod\u00e9 Diakit\u00e9"
   },
   "740415": {
-    "appearances": 275,
-    "goals": 71,
+    "appearances": 276,
+    "goals": 72,
     "name": "Dominic Calvert-Lewin"
   },
   "740530": {
@@ -1315,22 +1280,22 @@
     "name": "Omari Hutchinson"
   },
   "740540": {
-    "appearances": 114,
+    "appearances": 115,
     "goals": 16,
     "name": "Dango Ouattara"
   },
   "740541": {
-    "appearances": 32,
+    "appearances": 33,
     "goals": 3,
     "name": "Nordi Mukiele"
   },
   "740545": {
-    "appearances": 63,
+    "appearances": 64,
     "goals": 6,
     "name": "James McAtee"
   },
   "740550": {
-    "appearances": 165,
+    "appearances": 166,
     "goals": 16,
     "name": "Jacob Ramsey"
   },
@@ -1345,12 +1310,12 @@
     "name": "Amine Adli"
   },
   "740589": {
-    "appearances": 29,
+    "appearances": 30,
     "goals": 8,
     "name": "Noah Okafor"
   },
   "740618": {
-    "appearances": 20,
+    "appearances": 21,
     "goals": 1,
     "name": "Kasey McAteer"
   },
@@ -1365,17 +1330,17 @@
     "name": "Tyler Dibling"
   },
   "740677": {
-    "appearances": 129,
+    "appearances": 130,
     "goals": 6,
     "name": "James Justin"
   },
   "740895": {
-    "appearances": 38,
+    "appearances": 39,
     "goals": 1,
     "name": "Darnell Furlong"
   },
   "740910": {
-    "appearances": 35,
+    "appearances": 36,
     "goals": 2,
     "name": "Y\u00e9remy Pino"
   },
@@ -1385,7 +1350,7 @@
     "name": "Xavi Simons"
   },
   "740926": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Marcelino N\u00fa\u00f1ez"
   },
@@ -1395,7 +1360,7 @@
     "name": "Sindre Egeli"
   },
   "740957": {
-    "appearances": 33,
+    "appearances": 34,
     "goals": 8,
     "name": "Nick Woltemade"
   },
@@ -1420,39 +1385,34 @@
     "name": "Veljko Milosavljevic"
   },
   "741615": {
-    "appearances": 21,
+    "appearances": 22,
     "goals": 0,
     "name": "Jaydee Canvot"
   },
   "741617": {
-    "appearances": 32,
+    "appearances": 33,
     "goals": 7,
     "name": "Brian Brobbey"
   },
   "741642": {
-    "appearances": 101,
-    "goals": 57,
+    "appearances": 102,
+    "goals": 58,
     "name": "Alexander Isak"
   },
   "741652": {
-    "appearances": 157,
-    "goals": 46,
+    "appearances": 158,
+    "goals": 47,
     "name": "Yoane Wissa"
   },
   "741696": {
-    "appearances": 26,
+    "appearances": 28,
     "goals": 1,
     "name": "Kevin"
   },
   "741698": {
-    "appearances": 33,
+    "appearances": 34,
     "goals": 0,
     "name": "Senne Lammens"
-  },
-  "741701": {
-    "appearances": 14,
-    "goals": 0,
-    "name": "Dilane Bakwa"
   },
   "741713": {
     "appearances": 15,
@@ -1465,7 +1425,7 @@
     "name": "Darko Gyabi"
   },
   "741732": {
-    "appearances": 35,
+    "appearances": 36,
     "goals": 0,
     "name": "Gianluigi Donnarumma"
   },
@@ -1485,8 +1445,8 @@
     "name": "Alysson"
   },
   "772476": {
-    "appearances": 248,
-    "goals": 31,
+    "appearances": 249,
+    "goals": 32,
     "name": "Pascal Gro\u00df"
   },
   "772491": {
@@ -1495,7 +1455,7 @@
     "name": "Fraser Forster"
   },
   "773471": {
-    "appearances": 119,
+    "appearances": 120,
     "goals": 37,
     "name": "Antoine Semenyo"
   },
@@ -1510,7 +1470,7 @@
     "name": "Jocelin Ta Bi"
   },
   "774431": {
-    "appearances": 168,
+    "appearances": 169,
     "goals": 10,
     "name": "Marc Gu\u00e9hi"
   },
@@ -1535,7 +1495,7 @@
     "name": "Tammy Abraham"
   },
   "775775": {
-    "appearances": 16,
+    "appearances": 17,
     "goals": 5,
     "name": "Rayan"
   },
@@ -1545,7 +1505,7 @@
     "name": "Paddy McNair"
   },
   "776073": {
-    "appearances": 41,
+    "appearances": 42,
     "goals": 1,
     "name": "Oscar Bobb"
   },
@@ -1555,23 +1515,23 @@
     "name": "Melker Ellborg"
   },
   "776263": {
-    "appearances": 72,
+    "appearances": 73,
     "goals": 18,
     "name": "J\u00f8rgen Strand Larsen"
   },
   "776265": {
-    "appearances": 8,
+    "appearances": 9,
     "goals": 0,
     "name": "Luca Netz"
   },
   "776266": {
-    "appearances": 9,
+    "appearances": 10,
     "goals": 1,
     "name": "Nilson Angulo"
   },
   "778174": {
-    "appearances": 59,
-    "goals": 1,
+    "appearances": 60,
+    "goals": 2,
     "name": "Rom\u00e9o Lavia"
   },
   "779945": {
@@ -1580,7 +1540,7 @@
     "name": "Cheick Doucour\u00e9"
   },
   "785353": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Costinha"
   },
@@ -1589,18 +1549,23 @@
     "goals": 0,
     "name": "Zadok Yohanna"
   },
+  "785355": {
+    "appearances": 1,
+    "goals": 0,
+    "name": "Geovany Quenda"
+  },
   "785357": {
-    "appearances": 17,
+    "appearances": 18,
     "goals": 1,
     "name": "Merlin R\u00f6hl"
   },
   "785370": {
-    "appearances": 1,
-    "goals": 0,
+    "appearances": 2,
+    "goals": 1,
     "name": "V\u00edctor Mu\u00f1oz"
   },
   "785371": {
-    "appearances": 107,
+    "appearances": 108,
     "goals": 4,
     "name": "Jan Paul van Hecke"
   },
@@ -1610,17 +1575,17 @@
     "name": "Dan Neil"
   },
   "785375": {
-    "appearances": 5,
-    "goals": 0,
+    "appearances": 6,
+    "goals": 1,
     "name": "Chuba Akpom"
   },
   "785376": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "J\u00e9r\u00e9my Jacquet"
   },
   "785377": {
-    "appearances": 333,
+    "appearances": 334,
     "goals": 12,
     "name": "Andy Robertson"
   },
@@ -1645,7 +1610,7 @@
     "name": "Pascal Struijk"
   },
   "785461": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Hayden Hackney"
   },
@@ -1655,17 +1620,22 @@
     "name": "Jack Butland"
   },
   "785463": {
-    "appearances": 73,
+    "appearances": 74,
     "goals": 5,
     "name": "Mateus Fernandes"
   },
   "785467": {
-    "appearances": 120,
+    "appearances": 121,
     "goals": 6,
     "name": "Elliot Anderson"
   },
+  "785592": {
+    "appearances": 1,
+    "goals": 0,
+    "name": "Bazoumana Tour\u00e9"
+  },
   "785795": {
-    "appearances": 80,
+    "appearances": 81,
     "goals": 5,
     "name": "Sandro Tonali"
   },
@@ -1675,22 +1645,22 @@
     "name": "Piero Hincapi\u00e9"
   },
   "785888": {
-    "appearances": 24,
+    "appearances": 25,
     "goals": 1,
     "name": "Tyrique George"
   },
   "785889": {
-    "appearances": 71,
+    "appearances": 72,
     "goals": 10,
     "name": "Jaidon Anthony"
   },
   "785898": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 1,
     "name": "Emersonn"
   },
   "785899": {
-    "appearances": 157,
+    "appearances": 158,
     "goals": 29,
     "name": "Harry Wilson"
   },
@@ -1700,12 +1670,17 @@
     "name": "Illan Meslier"
   },
   "785903": {
-    "appearances": 272,
+    "appearances": 273,
     "goals": 95,
     "name": "Callum Wilson"
   },
-  "785905": {
+  "785904": {
     "appearances": 1,
+    "goals": 0,
+    "name": "\u00d3scar Mingueza"
+  },
+  "785905": {
+    "appearances": 2,
     "goals": 0,
     "name": "Sean Steur"
   },
@@ -1715,17 +1690,22 @@
     "name": "Jeremy Monga"
   },
   "785922": {
-    "appearances": 30,
+    "appearances": 31,
     "goals": 2,
     "name": "Loum Tchaouna"
   },
   "785944": {
-    "appearances": 29,
+    "appearances": 30,
     "goals": 1,
     "name": "Andrey Santos"
   },
-  "785952": {
+  "785951": {
     "appearances": 1,
+    "goals": 0,
+    "name": "\u00c1lvaro Rodr\u00edguez"
+  },
+  "785952": {
+    "appearances": 2,
     "goals": 0,
     "name": "Luka Vuskovic"
   },
@@ -1735,22 +1715,22 @@
     "name": "Karl Darlow"
   },
   "785954": {
-    "appearances": 245,
+    "appearances": 246,
     "goals": 26,
     "name": "Youri Tielemans"
   },
   "785955": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Thomas Meunier"
   },
   "785967": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Aur\u00e8le Amenda"
   },
   "785969": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Tarik Muharemovic"
   },
@@ -1760,17 +1740,17 @@
     "name": "Jo\u00e3o Gomes"
   },
   "786118": {
-    "appearances": 86,
-    "goals": 21,
+    "appearances": 87,
+    "goals": 22,
     "name": "Morgan Rogers"
   },
   "786120": {
-    "appearances": 12,
+    "appearances": 13,
     "goals": 0,
     "name": "Abdul Fatawu"
   },
   "786122": {
-    "appearances": 174,
+    "appearances": 175,
     "goals": 8,
     "name": "Issa Diop"
   },
@@ -1790,7 +1770,7 @@
     "name": "Alejandro Garnacho"
   },
   "786129": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Xaver Schlager"
   },
@@ -1799,28 +1779,33 @@
     "goals": 0,
     "name": "Aladji Bamba"
   },
-  "786188": {
+  "786135": {
     "appearances": 1,
+    "goals": 0,
+    "name": "Hidemasa Morita"
+  },
+  "786188": {
+    "appearances": 2,
     "goals": 0,
     "name": "Daizen Maeda"
   },
   "786314": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Kjell Scherpen"
   },
   "786341": {
-    "appearances": 71,
+    "appearances": 72,
     "goals": 2,
     "name": "Maxence Lacroix"
   },
   "790417": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Ant\u00f3nio Silva"
   },
   "790418": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Mamadou Sangar\u00e9"
   },
@@ -1830,12 +1815,12 @@
     "name": "Danny Welbeck"
   },
   "790514": {
-    "appearances": 6,
+    "appearances": 7,
     "goals": 0,
     "name": "Valent\u00edn Barco"
   },
   "790515": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Luk\u00e1s Horn\u00edcek"
   },
@@ -1845,17 +1830,17 @@
     "name": "Jordan Henderson"
   },
   "790523": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "C\u00e9sar Palacios"
   },
   "790524": {
-    "appearances": 1,
-    "goals": 0,
+    "appearances": 2,
+    "goals": 1,
     "name": "Gonzalo Garc\u00eda"
   },
   "790526": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Carl Rushworth"
   },
@@ -1865,7 +1850,7 @@
     "name": "Florentino"
   },
   "790532": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Konstantinos Tzolakis"
   },
@@ -1875,17 +1860,17 @@
     "name": "Christian N\u00f8rgaard"
   },
   "790558": {
-    "appearances": 33,
+    "appearances": 34,
     "goals": 0,
     "name": "James Trafford"
   },
   "790975": {
-    "appearances": 66,
+    "appearances": 67,
     "goals": 2,
     "name": "Takehiro Tomiyasu"
   },
   "791807": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Caleb Yirenkyi"
   },
@@ -1895,59 +1880,69 @@
     "name": "Bruno Guimar\u00e3es"
   },
   "791922": {
-    "appearances": 93,
+    "appearances": 94,
     "goals": 2,
     "name": "Sasa Lukic"
   },
   "791947": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Elliot Stroud"
   },
   "792039": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Ronald Araujo"
   },
   "792315": {
-    "appearances": 249,
+    "appearances": 250,
     "goals": 21,
     "name": "Dwight McNeil"
   },
   "792316": {
-    "appearances": 141,
+    "appearances": 142,
     "goals": 26,
     "name": "Brennan Johnson"
   },
   "792317": {
-    "appearances": 1,
+    "appearances": 3,
     "goals": 0,
     "name": "Shea Charles"
   },
+  "792439": {
+    "appearances": 2,
+    "goals": 0,
+    "name": "Pep Chavarr\u00eda"
+  },
   "792440": {
-    "appearances": 37,
+    "appearances": 38,
     "goals": 4,
     "name": "Gustavo Hamer"
   },
   "792471": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Lucas Herrington"
   },
   "792472": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 1,
     "name": "Nobel Mendy"
   },
   "792493": {
-    "appearances": 22,
+    "appearances": 23,
     "goals": 1,
     "name": "Evann Guessand"
   },
   "792694": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Anan Khalaili"
+  },
+  "792702": {
+    "appearances": 1,
+    "goals": 0,
+    "name": "Lucas Gourna-Douath"
   },
   "792703": {
     "appearances": 35,
@@ -1955,29 +1950,44 @@
     "name": "Joe Gelhardt"
   },
   "792792": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Abdoul Ouattara"
   },
   "792793": {
-    "appearances": 58,
+    "appearances": 59,
     "goals": 6,
     "name": "Julio Enciso"
   },
   "792794": {
-    "appearances": 91,
+    "appearances": 92,
     "goals": 21,
     "name": "Taiwo Awoniyi"
   },
   "792808": {
-    "appearances": 1,
+    "appearances": 2,
     "goals": 0,
     "name": "Amar Dedic"
+  },
+  "792876": {
+    "appearances": 1,
+    "goals": 0,
+    "name": "Promise David"
+  },
+  "792877": {
+    "appearances": 1,
+    "goals": 0,
+    "name": "Zavier Gozo"
   },
   "792889": {
     "appearances": 1,
     "goals": 0,
     "name": "Matteo Ruggeri"
+  },
+  "792891": {
+    "appearances": 1,
+    "goals": 0,
+    "name": "Nico Elvedi"
   },
   "792946": {
     "appearances": 12,
@@ -1999,8 +2009,78 @@
     "goals": 0,
     "name": "Lewis Koumas"
   },
+  "793020": {
+    "appearances": 53,
+    "goals": 2,
+    "name": "S\u00e1vio"
+  },
+  "793053": {
+    "appearances": 92,
+    "goals": 3,
+    "name": "Carlos Baleba"
+  },
+  "793054": {
+    "appearances": 1,
+    "goals": 0,
+    "name": "Ayyoub Bouaddi"
+  },
+  "793175": {
+    "appearances": 118,
+    "goals": 8,
+    "name": "Ethan Pinnock"
+  },
+  "793176": {
+    "appearances": 59,
+    "goals": 3,
+    "name": "Axel Disasi"
+  },
+  "793177": {
+    "appearances": 37,
+    "goals": 2,
+    "name": "Nico Gonz\u00e1lez"
+  },
+  "793190": {
+    "appearances": 1,
+    "goals": 0,
+    "name": "Mohamed-Ali Cho"
+  },
+  "793191": {
+    "appearances": 68,
+    "goals": 13,
+    "name": "Liam Delap"
+  },
+  "793192": {
+    "appearances": 38,
+    "goals": 10,
+    "name": "Omar Marmoush"
+  },
+  "793203": {
+    "appearances": 1,
+    "goals": 0,
+    "name": "Exequiel Palacios"
+  },
+  "793204": {
+    "appearances": 32,
+    "goals": 0,
+    "name": "El Hadji Malick Diouf"
+  },
+  "793211": {
+    "appearances": 1,
+    "goals": 0,
+    "name": "Kaden Braithwaite"
+  },
+  "793213": {
+    "appearances": 65,
+    "goals": 24,
+    "name": "Nicolas Jackson"
+  },
+  "794384": {
+    "appearances": 229,
+    "goals": 0,
+    "name": "Emiliano Mart\u00ednez"
+  },
   "92622": {
-    "appearances": 340,
+    "appearances": 341,
     "goals": 31,
     "name": "Virgil van Dijk"
   }

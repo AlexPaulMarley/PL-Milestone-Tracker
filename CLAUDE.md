@@ -19,7 +19,7 @@ The weekly Monday GitHub Action runs scripts/check_all_milestones.py, which:
   currentTeam field, which means "last known club") marks who's active.
 - Refreshes data/alltime_player_stats.xlsx/.csv on GitHub.
 - Milestones every 50 for BOTH goals and appearances (50, 100, 150...).
-- Posts a weekly Teams digest of active players within NEAR=5 of a milestone
+- Posts a weekly Teams digest of active players within NEAR=10 of a milestone
   (deduped per day in state.json - two Monday crons both fire), plus an
   individual card per milestone actually reached (deduped forever;
   crossings detected against data/milestone_snapshot.json, baselined

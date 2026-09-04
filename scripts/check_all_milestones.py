@@ -35,11 +35,11 @@ import requests
 from build_alltime_stats import build_dataset, write_spreadsheets
 
 STEP = 50
-NEAR = 5
+NEAR = 10  # was 5 until 2026-09-04; user wanted more lead time
 STATS = ("goals", "appearances")
 STATE_JSON = os.path.join(os.path.dirname(__file__), "..", "data", "state.json")
 SNAPSHOT_JSON = os.path.join(os.path.dirname(__file__), "..", "data", "milestone_snapshot.json")
-MAX_DIGEST_ROWS = 40  # per stat section, to stay inside Teams card size limits
+MAX_DIGEST_ROWS = 100  # per stat section, to stay inside Teams card size limits
 
 
 def load_json(path, default):

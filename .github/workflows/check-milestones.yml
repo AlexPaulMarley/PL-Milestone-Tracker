@@ -11,8 +11,8 @@ on:
     # by a delayed run. Running the check twice a week is harmless: reached
     # alerts dedupe forever and the digest dedupes per day via
     # data/state.json.
-    - cron: '5 4 * * 1' # ~05:05 UK time while BST is in effect
-    - cron: '5 5 * * 1' # ~05:05 UK time while GMT is in effect
+    - cron: '5 1 * * 1' # ~02:05 UK time while BST is in effect
+    - cron: '5 2 * * 1' # ~02:05 UK time while GMT is in effect
   workflow_dispatch:
     inputs:
       test:

@@ -1155,7 +1155,7 @@
 1154,Arthur Masuaku,108,1,,False,Left Full Back,DR Congo,7 November 1993,740108
 1155,Kevin Schade,107,24,Brentford,True,Left/Right Winger,Germany,27 November 2001,340456
 1156,Ryan Babel,107,17,Eyupspor,False,Left/Right Winger,Netherlands,19 December 1986,339060
-1157,Pape Matar Sarr,107,8,Juventus,False,Midfielder,Senegal,14 September 2002,794554
+1157,Pape Matar Sarr,107,8,Juventus,False,Centre Central Midfielder,Senegal,14 September 2002,794554
 1158,Jonny,107,6,Alavés,False,Right Full Back,Spain,3 March 1994,739054
 1159,Michael Thomas,107,6,Liverpool,False,Midfielder,England,24 August 1967,253
 1160,Mike Milligan,107,5,,False,Midfielder,England,20 February 1967,1021
@@ -1394,7 +1394,7 @@
 1393,Javier Garrido,89,2,Las Palmas,False,Right Full Back,Spain,15 March 1985,106041
 1394,Barry Venison,89,1,,False,Defender,England,16 August 1964,1269
 1395,Clinton Morrison,88,15,Exeter City,False,Centre Striker,Ireland,14 May 1979,14643
-1396,Mohammed Kudus,88,15,Tottenham Hotspur,True,Midfielder,Ghana,2 August 2000,738357
+1396,Mohammed Kudus,88,15,Tottenham Hotspur,True,Right Winger,Ghana,2 August 2000,738357
 1397,Shaun Maloney,88,15,Hull City,False,Left/Centre/Right Attacking Midfielder,Scotland,24 January 1983,19405
 1398,David Platt,88,13,,False,Midfielder,England,10 June 1966,1105
 1399,Josko Gvardiol,88,12,Manchester City,True,Left/Centre Central Defender,Croatia,23 January 2002,343671
@@ -2068,7 +2068,7 @@
 2067,Svetoslav Todorov,48,7,,False,Forward,Bulgaria,30 August 1978,4475
 2068,Callum Robinson,48,6,Cardiff City,False,Left/Centre Striker,Ireland,2 February 1995,325547
 2069,Jô,48,6,,False,Centre Striker,Brazil,20 March 1987,92940
-2070,Mathys Tel,48,6,Tottenham Hotspur,True,Forward,France,27 April 2005,737218
+2070,Mathys Tel,48,6,Tottenham Hotspur,True,Left Winger,France,27 April 2005,737218
 2071,Florent Sinama-Pongolle,48,5,Real Zaragoza,False,Left/Centre/Right Striker,France,20 October 1984,101269
 2072,José Izquierdo,48,5,Club Brugge,False,Left Winger,Colombia,7 July 1992,17457
 2073,Mamady Sidibe,48,5,Stoke City,False,Centre Striker,Mali,18 December 1979,5105
@@ -2238,7 +2238,7 @@
 2237,Dieumerci Mbokani,41,7,Royal Antwerp,False,Forward,DR Congo,22 November 1985,258493
 2238,Somen Tchoyi,41,7,,False,Left/Centre/Right Attacking Midfielder,Cameroon,29 March 1983,113148
 2239,Eduardo da Silva,41,6,Shakhtar Donetsk,False,Centre Striker,Croatia,25 February 1983,7812
-2240,Enzo Le Fée,41,6,Sunderland,True,Midfielder,France,3 February 2000,737216
+2240,Enzo Le Fée,41,6,Sunderland,True,Centre Central Midfielder,France,3 February 2000,737216
 2241,Ryan Jones,41,6,,False,Midfielder,Wales,23 July 1973,488
 2242,Gary McSheffrey,41,3,Grimsby Town,False,Left Winger,England,13 August 1982,117130
 2243,Kiki Musampa,41,3,Atlético de Madrid,False,Midfielder,Netherlands,20 July 1977,3610
@@ -2259,7 +2259,7 @@
 2258,Leon McKenzie,40,7,,False,Forward,England,17 May 1978,178427
 2259,Takumi Minamino,40,6,Monaco,False,Left/Centre/Right Attacking Midfielder,Japan,16 January 1995,315450
 2260,Bruce Dyer,40,5,Watford,False,Forward,England,13 April 1975,353383
-2261,Malick Thiaw,40,4,Newcastle United,True,Defender,Germany,8 August 2001,740246
+2261,Malick Thiaw,40,4,Newcastle United,True,Centre Central Defender,Germany,8 August 2001,740246
 2262,Alan Quinn,40,3,Ipswich Town,False,Midfielder,Ireland,13 June 1979,27852
 2263,Leif Davis,40,3,Ipswich Town,True,Left Full Back,England,31 December 1999,320523
 2264,Robert Fleck,40,3,Norwich City,False,Forward,Scotland,11 August 1965,41947
@@ -2516,7 +2516,7 @@
 2515,Noah Okafor,33,9,Leeds United,True,Winger,Switzerland,24 May 2000,740589
 2516,Víctor Camarasa,33,5,Eldense,False,Centre Central Midfielder,Spain,28 May 1994,361192
 2517,Christian Karembeu,33,4,Olympiakos,False,Midfielder,France,3 December 1970,278976
-2518,Marten de Roon,33,4,Roma,False,Midfielder,Netherlands,29 March 1991,794442
+2518,Marten de Roon,33,4,Roma,False,Defensive Midfielder,Netherlands,29 March 1991,794442
 2519,Ali Benarbia,33,3,,False,Midfielder,Algeria,8 October 1968,2969
 2520,Matthew Rush,33,3,Oldham Athletic,False,Forward,England,6 August 1971,41959
 2521,Sotirios Kyrgiakos,33,3,Sunderland,False,Centre Central Defender,Greece,23 July 1979,6129
@@ -3024,7 +3024,7 @@
 3023,Stuart Wilson,22,3,,False,Midfielder,Scotland,16 September 1977,1407
 3024,Stéphane Dalmat,22,3,Internazionale,False,Midfielder,France,16 February 1979,3371
 3025,Adama Diomande,22,2,Toronto FC,False,Forward,Norway,14 February 1990,337712
-3026,Habib Diarra,22,2,Sunderland,True,Defensive Midfielder,Senegal,3 January 2004,737576
+3026,Habib Diarra,22,2,Sunderland,True,Centre Central Midfielder,Senegal,3 January 2004,737576
 3027,Rio Ngumoha,22,2,Liverpool,True,Left Winger,England,29 August 2008,740040
 3028,Rubén Rochina,22,2,Granada CF,False,Left/Centre/Right Attacking Midfielder,Spain,23 March 1991,105856
 3029,Stefan Moore,22,2,Brackley Town,False,Forward,England,28 September 1983,40672
@@ -3562,7 +3562,7 @@
 3561,Lionel Scaloni,13,0,Lazio,False,Right Full Back,Argentina,16 May 1978,99365
 3562,Luciano Becchio,13,0,Rotherham United,False,Centre Striker,Argentina,28 December 1983,19978
 3563,Luke O'Nien,13,0,Sunderland,True,Centre Central Midfielder,England,21 November 1994,134478
-3564,Marc Guiu,13,0,RB Leipzig,False,Forward,Spain,4 January 2006,794583
+3564,Marc Guiu,13,0,RB Leipzig,False,Centre Striker,Spain,4 January 2006,794583
 3565,Matthew Briggs,13,0,Barnet,False,Left Full Back,Guyana,6 March 1991,117119
 3566,Mehdi Abeid,13,0,Istanbul Basaksehir,False,Midfielder,Algeria,6 August 1992,358023
 3567,Mike Phelan,13,0,,False,Midfielder,England,24 September 1962,318
@@ -3937,7 +3937,7 @@
 3936,Tommy Wright,8,0,Manchester City,False,Goalkeeper,Northern Ireland,29 August 1963,2166
 3937,Tony Thomas,8,0,,False,Defender,England,12 July 1971,1656
 3938,William Kvist,8,0,FC København,False,Centre Defensive Midfielder,Denmark,24 February 1985,32476
-3939,Willy Kambwala,8,0,Como,False,Centre Central Defender,France,25 August 2004,793332
+3939,Willy Kambwala,8,0,Como,False,Centre Central Defender,DR Congo,25 August 2004,793332
 3940,Steve Cotterill,7,3,,False,Forward,England,20 July 1964,583
 3941,Clive Allen,7,2,,False,Forward,England,20 May 1961,882
 3942,Juan Cala,7,2,Cádiz,False,Centre Central Defender,Spain,26 November 1989,168179
@@ -4256,7 +4256,7 @@
 4255,Rory Ginty,5,0,Crystal Palace,False,Midfielder,Ireland,23 January 1977,939
 4256,Ryan Noble,5,0,Gateshead,False,Forward,England,11 June 1991,10941
 4257,Sam Hutchinson,5,0,AFC Wimbledon,False,Defensive Midfielder,England,3 August 1989,729164
-4258,Sean Steur,5,0,Newcastle United,True,Midfielder,Netherlands,11 January 2008,785905
+4258,Sean Steur,5,0,Newcastle United,True,Centre Central Midfielder,Netherlands,11 January 2008,785905
 4259,Sherjill MacDonald,5,0,Sparta Rotterdam,False,Centre Striker,Netherlands,20 November 1984,122883
 4260,Simon Webster,5,0,,False,Defender,England,20 January 1964,824
 4261,Stanislav Manolev,5,0,,False,Defender,Bulgaria,16 December 1985,163464
@@ -4310,7 +4310,7 @@
 4309,Elliot Stroud,4,0,Hull City,True,Left Winger,Sweden,22 June 2002,791947
 4310,Emilio Nsue,4,0,Intercity Sant Joan d'Alacant,False,Right Full Back,Equatorial Guinea,30 September 1989,330439
 4311,Ephron Mason-Clark,4,0,Peterborough United,False,Left/Centre/Right Striker,Jamaica,25 August 1999,356707
-4312,Exequiel Palacios,4,0,Ipswich Town,True,Midfielder,Argentina,5 October 1998,793203
+4312,Exequiel Palacios,4,0,Ipswich Town,True,Centre Central Midfielder,Argentina,5 October 1998,793203
 4313,Fredrik Stoor,4,0,,False,Defender,Sweden,28 February 1984,97998
 4314,Garry Thompson,4,0,,False,Forward,England,7 October 1959,446
 4315,Gary Parkinson,4,0,,False,Defender,England,10 January 1968,633
@@ -4389,7 +4389,7 @@
 4388,Sandy Robertson,4,0,,False,Midfielder,Scotland,26 April 1971,687
 4389,Scott Murray,4,0,Bath City,False,Midfielder,Scotland,26 May 1974,26554
 4390,Shayne Bradley,4,0,,False,Forward,England,8 December 1979,1997
-4391,Shea Lacey,4,0,,False,Right Winger,England,14 April 2007,736963
+4391,Shea Lacey,4,0,Manchester United,False,Right Winger,England,14 April 2007,736963
 4392,Simon Dawkins,4,0,Ipswich Town,False,Left/Right Winger,Jamaica,1 December 1987,145099
 4393,Simon Lappin,4,0,,False,Midfielder,Scotland,25 January 1983,13443
 4394,Souza,4,0,FC Porto,False,Left Full Back,Brazil,16 June 2006,794573
@@ -4419,7 +4419,7 @@
 4418,Adam Campbell,3,0,Crawley Town,False,Centre Striker,England,1 January 1995,344346
 4419,Ahmed Fathy,3,0,Al Ahly,False,Defender,Egypt,10 November 1984,91752
 4420,Aiden O'Neill,3,0,,False,Midfielder,Australia,4 July 1998,340537
-4421,Aladji Bamba,3,0,Newcastle United,True,Midfielder,France,14 July 2006,786134
+4421,Aladji Bamba,3,0,Newcastle United,True,Centre Defensive Midfielder,France,14 July 2006,786134
 4422,Alan Blayney,3,0,,False,Goalkeeper,Northern Ireland,9 October 1981,3010
 4423,Alex Evtushok,3,0,,False,Defender,Ukraine,11 January 1970,1515
 4424,Antwoine Hackford,3,0,AFC Wimbledon,False,Forward,England,20 March 2004,739493
@@ -4509,7 +4509,7 @@
 4508,Lee Powell,3,0,,False,Forward,Wales,2 June 1973,523
 4509,Leon Chiwome,3,0,,False,Forward,England,10 January 2006,358209
 4510,Lewis Bate,3,0,Stockport County,False,Centre Central Midfielder,England,28 October 2002,359459
-4511,Lewis Koumas,3,0,Liverpool,True,Forward,Wales,19 September 2005,793007
+4511,Lewis Koumas,3,0,Liverpool,True,Centre Striker,Wales,19 September 2005,793007
 4512,Liam O'Neil,3,0,Boreham Wood,False,Midfielder,England,31 July 1993,350441
 4513,Lucas Gourna-Douath,3,0,Hull City,True,Centre Defensive Midfielder,France,5 August 2003,792702
 4514,Lucien Aubey,3,0,Rennes,False,Left/Centre Central Defender,France,24 May 1984,174526
@@ -4551,7 +4551,7 @@
 4550,Percy Tau,3,0,Al Ahly,False,Left/Centre/Right Second Striker,South Africa,13 May 1994,298457
 4551,Peter Billing,3,0,,False,Defender,England,24 October 1964,607
 4552,Philip Ifil,3,0,Kettering Town,False,Defender,England,18 November 1986,176864
-4553,Quinten Timber,3,0,Crystal Palace,True,Midfielder,Netherlands,17 June 2001,794522
+4553,Quinten Timber,3,0,Crystal Palace,True,Centre Central Midfielder,Netherlands,17 June 2001,794522
 4554,Rami Shaaban,3,0,Brighton and Hove Albion,False,Goalkeeper,Sweden,30 June 1975,352799
 4555,Rekeem Harper,3,0,Barrow,False,Midfielder,England,8 March 2000,737420
 4556,Robert Betts,3,0,,False,Midfielder,England,21 December 1981,2100

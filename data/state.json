@@ -10,7 +10,9 @@
   "digest:2026-10-12": true,
   "digest:2026-10-19": true,
   "digest:2026-10-26": true,
+  "digest:2026-11-02": true,
   "reached:appearances:14011:300": true,
+  "reached:appearances:161345:300": true,
   "reached:appearances:202648:200": true,
   "reached:appearances:299539:150": true,
   "reached:appearances:316560:150": true,
@@ -30,5 +32,6 @@
   "reached:appearances:740676:50": true,
   "reached:appearances:772476:250": true,
   "reached:appearances:785954:250": true,
-  "reached:appearances:792315:250": true
+  "reached:appearances:792315:250": true,
+  "reached:goals:346777:50": true
 }
